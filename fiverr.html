@@ -1,0 +1,530 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<link href="fiverstyle.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+<link  rel="stylesheet"  href="fiverstyle.css" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script type="text/JavaScript">
+
+var picCount=0; 
+var picArray= ["women.jpg","women1.jpg","men.jpg"]
+
+function nextPic()
+{ 
+picCount=(picCount+1<picArray.length)? picCount+1 : 0;
+
+var build='<img border="0" src="'+picArray[picCount]+'" width="500" height="500">\
+';
+document.getElementById("imgHolder").innerHTML=build;
+
+setTimeout('nextPic()',2000)
+}
+</script>
+</head>
+<body background="fiv.jpg" onload="setTimeout('nextPic()',2000)">
+    <header class="header">
+        <nav class="navbar navbar-style">
+                <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=""></button>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <a href=""><img class="logo"src="fiverlogo.jpg"></a>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Fiverr pro</a></li>
+                <li><a href="#">Become a Seller</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#" class="btn btn-succes">Join</a></li>
+                
+                        </ul>
+                        <div>
+
+                        </div>
+                            
+        </nav>
+    </header>
+</br>
+</br>
+</br>
+</br>
+</br>
+        <div class="container">
+                <div class="row">
+                    
+                    <div class="col-sm-6">
+                       <ul>
+                        <h1 align="center"> Find The Perfect Freelance</h1> 
+                        <h1  align="center">Services For Your Business</h1>
+                        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" align="center">
+                                <form class="form-inline" >
+                                  <input class="form-control mr-sm-2" type="text" placeholder="Try 'logo animation'">
+                                  <button class="btn btn-success" type="submit">Search</button>
+                                </form>
+                              </nav>
+                        </ul>
+                    </div>
+            <div class="col-sm-6">
+                    <div id="imgHolder" >
+                    <img border="0" src="men.jpg" width="205" height="100">
+                    </div>
+                </div>
+                </div>
+                
+            
+                    
+                   <!-- <div class="bs-example">
+                            <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+                                
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                </ol>   
+                               
+                                <div class="carousel-inner">
+                                    <div class="active item">
+                                        <img src="men.jpg" alt="First Slide">
+                                         <div class="carousel-caption">
+                                          
+                                          <p>Mathew</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="women.jpg" alt="Second Slide">
+                                        <div class="carousel-caption">
+                                          <p>Ann</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="women1.jpg" alt="Third Slide">
+                                        <div class="carousel-caption">
+                                          <p>Melissa</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>
+                        </div>            </div>-->
+        </div>
+    </div>
+            <div class="row">
+                <div class="col-sm-6">
+                        <div class="col-sm-12">               
+                        <label>Popular:</label>
+                        <button type="button" class="btn btn-outline-secondary">Voice Over</button>
+                        <button type="button" class="btn btn-outline-secondary">Translation</button>
+                        <button type="button" class="btn btn-outline-secondary">Logo Design</button>
+                        <button type="button" class="btn btn-outline-secondary">Articles&Blog Posts</button>                               
+                </div>
+                </div>
+                </div>
+            </br>
+        </br>
+    </br>
+</br>
+</br>
+</br>
+                <div class="container">
+                <div class="row">
+                <div class="col-sm-6">
+                    <label><h1>Popular Professional Services</h1></label>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-sm-3">
+                        
+ 
+                        <div class="card mb-3">
+                           <img class="card-img" src="logodesign.jpg" alt="">
+                         
+                           <div class="card-img-overlay">
+                              
+                              <p class="card-text text-light">
+                                    <h4>Build Your Brand</h4>
+                              </p>
+                              <p class="card-text text-light">
+                                   <h3>Logo Design</h3> 
+                              </p>
+                           </div>
+                         
+                        </div>
+                    
+                                </div>
+                            
+                            <div class="col-sm-3">
+                                    <div class="card mb-3">
+                                            <img class="card-img" src="social.jpg" alt="">
+                                          
+                                            <div class="card-img-overlay">
+                                               
+                                               <p class="card-text text-light">
+                                                     <h4>Reach More Customers</h4>
+                                               </p>
+                                               <p class="card-text text-light">
+                                                    <h3>Social Media</h3> 
+                                               </p>
+                                            </div>
+                                          
+                                         </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                    <div class="card mb-3">
+                                                            <img class="card-img" src="voiceover.jpg" alt="">
+                                                          
+                                                            <div class="card-img-overlay">
+                                                               
+                                                               <p class="card-text text-light">
+                                                                     <h4>Share Your Message</h4>
+                                                               </p>
+                                                               <p class="card-text text-light">
+                                                                    <h3>Voice over</h3> 
+                                                               </p>
+                                                            </div>
+                                                          
+                                                         </div>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                    <div class="card mb-3">
+                                                                            <img class="card-img" src="translation.jpg" alt="">
+                                                                          
+                                                                            <div class="card-img-overlay">
+                                                                               
+                                                                               <p class="card-text text-light">
+                                                                                     <h4>Go Global</h4>
+                                                                               </p>
+                                                                               <p class="card-text text-light">
+                                                                                    <h3>Translation</h3> 
+                                                                               </p>
+                                                                            </div>
+                                                                          
+                                                                         </div>
+                                                                            </div>
+                                                        </div> 
+                                                    </div>                   
+                                                          
+                                                </br>
+                                            </br>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <h3>Get Work Done Faster on Fiverr,with</h2>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                        <h3>Confidence</h2>
+                                                    </div>
+                                            </div>
+                                            <div class="row">
+                                                
+                                                    <div class="col-sm-6">
+                                                        <ul>
+                                                        <img class="check" src="yes.jpg"><h4>&nbsp;&nbsp;Payment Protection,Guaranteed</h4>
+                                                        <p>Payment is released to the freelancer once you’re pleased and approve the work you get. </p>
+                                                        <img class="check" src="yes.jpg"><h4>&nbsp;&nbsp;Know The Price Upfront</h4>
+                                                        <p>Find any service within minutes and know exactly what you’ll pay. No hourly rates, just a fixed price. </p>
+                                                        <img class="check" src="yes.jpg"><h4>&nbsp;&nbsp;We’re Here For You 24/7</h4>
+                                                        <p>Fiverr is here for you, anything from answering any questions to resolving any issues, at any time.</p>
+                                                       
+                                                    </ul>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                            <div class="embed-responsive embed-responsive-16by9"> 
+                                                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Npin-ZwaL40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                                    
+                                                                </div> 
+                                                               
+                                                                
+                                                    </div>
+                                                    
+                                                </div>
+                                            </br>
+                                        </br>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <h2>Explore The Marketplace</h2>
+                                            </div>
+                                        </div>
+                                    </br>
+                                </br>
+                            </br>
+                        </br>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="col-sm-6">
+                                                <div class="card" style="width: 18rem;">
+                                                       <a href="#"><img class="card-img-top" src="gd.jpg" alt=""></a> 
+                                                        <div class="card-body">
+                                                          <p class="card-text">Graphics&Design</p>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                        </div>
+                                                <div class="col-sm-3">
+                                                    <div class="col-sm-6">
+                                                        
+                                                        <div class="card" style="width: 20rem;">
+                                                               <a href="#"><img class="card-img-top" src="digital.jpg" alt=""></a> 
+                                                                <div class="card-body">
+                                                                  <p class="card-text">Digital Marketing</p>
+                                                                </div>
+                                                                </div>
+                                                              </div>
+                                                            
+                                                </div>
+                                            
+                                            <div class="col-sm-3">
+                                                    
+                                                        <div class="col-sm-6">
+                                                        <div class="card" style="width: 20rem;">
+                                                               <a href="#"><img class="card-img-top" src="writing.jpg" alt=""></a> 
+                                                                <div class="card-body">
+                                                                  <p class="card-text">Writing and Translation</p>
+                                                                </div>
+                                                                </div>
+                                                             
+                                                            </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    
+                                                        <div class="col-sm-6">
+                                                        <div class="card" style="width: 20rem;">
+                                                               <a href="#"><img class="card-img-top" src="video.jpg" alt=""></a> 
+                                                                <div class="card-body">
+                                                                  <p class="card-text">video and animation</p>
+                                                                </div>
+                                                                </div>
+                                                             
+                                                            </div>
+                                                </div> 
+                                    </div>
+                                </br>
+                            </br>
+                                    <div class="row">
+                                            <div class="col-sm-3">
+                                                    
+                                                    <div class="col-sm-6">
+                                                    <div class="card" style="width: 20rem;">
+                                                           <a href="#"><img class="card-img-top" src="music.jpg" alt=""></a> 
+                                                            <div class="card-body">
+                                                              <p class="card-text">music&audio</p>
+                                                            </div>
+                                                            </div>
+                                                         
+                                                        </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                    
+                                                    <div class="col-sm-6">
+                                                    <div class="card" style="width: 20rem;">
+                                                           <a href="#"><img class="card-img-top" src="program.jpg" alt=""></a> 
+                                                            <div class="card-body">
+                                                              <p class="card-text">Programming&tech</p>
+                                                            </div>
+                                                            </div>
+                                                         
+                                                        </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                    <div class="card" style="width: 20rem;">
+                                                           <a href="#"><img class="card-img-top" src="business.jpg" alt=""></a> 
+                                                            <div class="card-body">
+                                                              <p class="card-text">Business</p>
+                                                            </div>
+                                                            </div>
+                                                         
+                                                        </div>
+                                        
+                                            <div class="col-sm-3">
+                                                    <div class="card" style="width: 20rem;">
+                                                           <a href="#"><img class="card-img-top" src="lifestyle.jpg" alt=""></a> 
+                                                            <div class="card-body">
+                                                              <p class="card-text">Lifestyle</p>
+                                                            </div>
+                                                            </div>
+                                                         
+                                                        </div>
+                                            </div>
+                                    </div>
+                                </br>
+                            </br>
+                                    <!-- Footer -->
+<footer class="page-footer font-small indigo">
+    <div class="row">
+        <div class="col-sm-6">
+                <div class="col-sm-6">
+            <a href=""><img class="logo"src="footerimg.jpg" style="width: 80px;"></a>
+        </div>
+    </div>
+</div>
+    <div class="row">
+    <div class="col-sm-6">
+            <div class="col-sm-6">
+            <label><h6 style="color:grey;">Privacy Policy|Terms of Service</h6></label>
+        <div class="footer-copyrig py-3"style="color:grey;">© Fiverr Int. Lmt. 2019
+                
+              </div>
+              </div>
+            
+        </div>
+    </div>
+</br>
+    <div class="row">
+        <div class="col-sm-3">
+    
+      <div class="col-sm-3">
+
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Categories</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!"style="color:grey;">Graphics&Design</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:grey;">Digital Marketing</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:grey;">Writing&Translation</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:grey;">Video and animation</a>
+                </li>
+              </ul>
+    
+            </div>
+        </div>
+               <div class="col-sm-3">
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">About</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!"style="color:grey;">careers</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:grey;">Press&News</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:grey;">Partnerships</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:grey;">Privacy Policy</a>
+                </li>
+              </ul>
+            </div>
+           
+            <div class="col-sm-3">
+    
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Support</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!"style="color:grey;">Help&support</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:grey;">Trust&safety</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:grey;">Selling on Fiverr</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:grey;">Buying on Fiverr</a>
+                </li>
+              </ul>
+    
+            </div>
+            
+            <div class="col-sm-3 ">
+    
+              <!-- Links -->
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Community</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!"style="color:grey;">Events</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:grey;">Blog</a>
+                </li>
+                <li>
+                  <a href="#!"style="color:grey;">Forum</a>
+                </li>
+                <li>
+                  <a href="#!" style="color:grey;">Podcast</a>
+                </li>
+              </ul>
+    
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-1">
+            <div class="col-sm-1">
+                    <a href=""><img class="logo"src="googleplus.jpg" style="width: 25px;"></a>
+            </div>
+        </div>
+        <div class="col-sm-1">
+                <a href=""><img class="logo"src="twitter.jpg" style="width: 25px;"></a>
+        </div>
+        <div class="col-sm-1">
+                <a href=""><img class="logo"src="facebook.jpg" style="width: 25px;"></a>
+        </div>
+        <div class="col-sm-1">
+                <a href=""><img class="logo"src="linkedin.jpg" style="width: 25px;"></a>
+        </div>
+        <div class="col-sm-1">
+                <a href=""><img class="logo"src="pin.jpg" style="width: 25px;"></a>
+        </div>
+        <div class="col-sm-1">
+                <a href=""><img class="logo"src="insta.jpg" style="width: 25px;"></a>
+        </div>
+        <div class="col-sm-6">
+                <div class="col-sm-6">  
+                        <div class="col-sm-6">
+                                         
+        <div class="dropdown" style="margin-right:250px;">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" >$USD
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">United States Dollar($USD)</a></li>
+                  <li><a href="#">Euro</a></li>
+                  <li><a href="#">British Pound</a></li>
+                  <li><a href="#">Australian Dollar</a></li>
+                  <li><a href="#">Canadian Dollar</a></li>
+                </ul>
+              </div>
+              </div>
+            </div>
+            </div>
+            
+            <script>
+                    $(document).ready(function(){
+                      $(".dropdown").on("hide.bs.dropdown", function(){
+                        $(".btn").html('$USD <span class="caret"></span>');
+                      });
+                      $(".dropdown").on("show.bs.dropdown", function(){
+                        $(".btn").html('$USD <span class="caret caret-up"></span>');
+                      });
+                    });
+                    </script>
+        </div>
+
+        </footer>   
+    </body>
+</html>
+
+                                                  
+            

@@ -1,0 +1,126 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+
+<!----script src="js/bootstrap.min.js"></script>
+
+<link rel="Stylesheet" type="text/css"  href="css/bootstrap.css">-->
+<title>Registration Form</title>
+<style>
+    .signup,
+    .login{
+        width: 50px;
+        height: 60px;
+        float: left;
+        text-align: center;
+        line-height: 60px;
+        cursor: pointer;
+        text-transform:uppercase;
+    }
+    .gradient-button {
+    margin: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 100% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+}
+.gradient-button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+}
+.gradient-button-1 {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%)}
+.gradient-button-1:hover { background-position: right center; }
+
+.gradient-button-2 {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%)}
+.gradient-button-2:hover { background-position: right center; }
+
+.gradient-button-3 {background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%)}
+.gradient-button-3:hover { background-position: right center; }
+
+.gradient-button-4 {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
+.gradient-button-4:hover { background-position: right center; }
+</style>
+
+</head>
+<body style="background-color:blue">
+    <div class="container">
+            
+        <div class="col-sm-10" style="width: 600px;margin-left: 250px;margin-top: 50px;">
+               
+            <div class="jumbotron">
+                    <div class="row">
+                            <!--div class="col-md-6 col-md-offset-3">
+                                <div class="panel panel-login">
+                                    <div class="panel-heading">-->
+                                        <div class="row">
+                                                
+                                                    <div class="tab">
+                                                        <a href="#" class="btn"Signin></a> 
+                                                    <form id="signin" class="form active">
+                                                        <label>username </label>
+                                                        <input type="text" >
+                                                        <label>Password</label>
+                                                        <input type="password">
+                                                        <input type="submit" value="Sign In">
+                                                    </form>   
+                                                     </div>
+                                                     <div class="tab">
+                                                            <a href="#" class="btn"signup></a> 
+                                                        <form id="signup" class="form noactive">
+                                                            <label>username </label>
+                                                            <input type="text">
+                                                            <label>Email </label>
+                                                            <input type="text">
+                                                            <label>Password</label>
+                                                            <input type="password">
+                                                            <div class="form-group">
+                                                                    <button class="btn btn-primary gradient-button gradient-button-4" style="width:400px;"  >Sign Up</button>
+                                                                </div>
+                                                        </form>   
+                                                         </div>
+                                                        
+                                                        </div>
+                                        </div>
+                                                 
+                        <div class="form-group">
+                                <label style="margin-left:20px;">
+                                   You can use the Google service to signup
+                                </label>
+                                </div>
+                                <div class="form-group">
+                                    
+                                        <button class="btn btn-secondary" style="width:430px;"><img src="images/img.jpg" width="50px;" style="background-color: grey;" />Sign Up with google</button>
+                                    </div>
+
+                </form>
+                <script>
+                    $(document).ready(function(){
+                        $('a').click(function(e){
+                            e.preventDefault();
+                            $('.form').removeClass('active').addClass('noactive');
+                            $(this).siblings().addClass('active').removeClass('noactive');
+                        })
+                    })
+                </script>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
